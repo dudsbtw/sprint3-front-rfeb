@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOVI Alive | Sprint 3 - Front-End Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container cabecalho">
+            <a class="logo" href="#solucao">JOVI Alive</a>
+
+            <nav aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#solucao">A Solução</a></li>
+                    <li><a href="#publico">Público-Alvo</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#equipe">Nossa Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="solucao">
+            <div class="container grade-solucao">
+                <div>
+                    <p class="destaque">Sprint 3 · Front-End Design</p>
+                    <h1>A câmera que transforma sua foto em obra</h1>
+                    <p>
+                        O JOVI Alive é uma solução para estudantes que querem criar fotos melhores
+                        sem perder tempo com edições manuais. A câmera usa inteligência artificial
+                        para analisar os registros, escolher o melhor frame e aplicar ajustes de cor,
+                        iluminação e contraste.
+                    </p>
+                </div>
+
+                <div class="recursos">
+                    <article>
+                        <h2>FrameAI</h2>
+                        <p>Analisa enquadramento, nitidez, expressão e iluminação para selecionar o melhor frame.</p>
+                    </article>
+
+                    <article>
+                        <h2>StyleLens</h2>
+                        <p>Aplica automaticamente o estilo escolhido pelo usuário e deixa a foto pronta para
+                            compartilhar.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="publico">
+            <div class="container grade-publico">
+                <div>
+                    <p class="destaque">Público-Alvo</p>
+                    <h2>Feito para estudantes que criam</h2>
+                </div>
+
+                <div>
+                    <p>
+                        A solução é voltada para estudantes que conciliam estudos, trabalho e vida
+                        pessoal, mas também produzem conteúdo para redes sociais. Para esse público,
+                        o JOVI Alive reduz o tempo de edição e oferece resultados com mais identidade,
+                        sem exigir conhecimento profissional em fotografia.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container">
+                <p class="destaque">Galeria</p>
+                <h2>Protótipos da solução</h2>
+
+                <div class="grade-galeria">
+                    <figure>
+                        <img src="imagens/splash.png" alt="Tela inicial do aplicativo JOVI Alive">
+                        <figcaption>Tela inicial</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="imagens/camera.png" alt="Tela da câmera do aplicativo JOVI Alive">
+                        <figcaption>Câmera Alive</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="imagens/selecao.png" alt="Tela de seleção do melhor frame">
+                        <figcaption>Seleção de frame</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="imagens/resultado.png" alt="Tela com o resultado final da foto">
+                        <figcaption>Resultado final</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipe">
+            <div class="container">
+                <p class="destaque">Nossa Equipe</p>
+                <h2>Integrantes do projeto</h2>
+
+                <div class="grade-equipe">
+                    <article>
+                        <h3>Eduardo Felix Frois Silva</h3>
+                        <p>RM: 574103</p>
+                    </article>
+                    <article>
+                        <h3>Gabriel Henrique Ongarelli Reis</h3>
+                        <p>RM: 572636</p>
+                    </article>
+                    <article>
+                        <h3>Matheus de Amorim Brito</h3>
+                        <p>RM: 572435</p>
+                    </article>
+                    <article>
+                        <h3>Thiago Gomes Nascimento</h3>
+                        <p>RM: 569436</p>
+                    </article>
+                    <article>
+                        <h3>Vinicius Scalone Ramires</h3>
+                        <p>RM: 573783</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container grade-contato">
+                <div>
+                    <p class="destaque">Contato</p>
+                    <h2>Fale com a nossa equipe</h2>
+                    <p>
+                        Utilize o formulário para enviar dúvidas, sugestões ou comentários
+                        relacionados ao JOVI Alive.
+                    </p>
+                </div>
+
+                <form>
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+
+                    <button>Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>JOVI Alive — Sprint 3 · Front-End Design</p>
+        </div>
+    </footer>
+</body>
+
+</html>
